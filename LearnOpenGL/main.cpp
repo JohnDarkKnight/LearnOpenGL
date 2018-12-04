@@ -110,7 +110,7 @@ int main()
         1, 2, 3   // second Triangle
     };
     
-    // VAO: 定点数组对象, VBO: 定点缓冲对象， EBO: 索引缓冲对象
+    // VAO: 顶点数组对象, VBO: 顶点缓冲对象， EBO: 索引缓冲对象
     unsigned int VBO, VAO, EBO;
     glGenVertexArrays(1, &VAO);
     glGenBuffers(1, &VBO);
